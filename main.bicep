@@ -51,6 +51,7 @@ module storage './modules/storage-account.bicep'={
   params: {
     name: saName
     location : location
+    tags:tags
   }
 }
 

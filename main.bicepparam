@@ -12,11 +12,14 @@ param tags  ={
   'ke-app-tech-contact' :'some_value'
   'ke-app-environment' : 'test'
   'ke-app-cost-owner' : 'test'
+  'ke-app-backup' : 'yes'
+  'ke-patch-priority' : 'low'
 }
 
-//Stoarge Account
+//Storage Account
 param saName  = 'dstrgacct0112ed6b7hd5'
 param containerName  = 'files'
+
 
 //Virtual Network
 param vnetName = 'vnet-demo'
@@ -30,5 +33,6 @@ param vmSize = 'Standard_B2s'
 param adminUsername = 'azureadmin'
 param adminPassword = 'P@ssw0rd123!Complex'
 param osDiskType = 'Premium_LRS'
+
 
 
