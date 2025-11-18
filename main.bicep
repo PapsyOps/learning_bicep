@@ -88,4 +88,4 @@ module vm './modules/virtual-machine.bicep' ={
 output resourceGroupName string = rg.outputs.resourceGroupName
 output vnetName string = vnet.outputs.vnetName
 output vmName string = vm.outputs.vmName
-output vmPrivateIP string = vm.outputs.privateIP
+//output vmPrivateIP string = vm.outputs.privateIP
