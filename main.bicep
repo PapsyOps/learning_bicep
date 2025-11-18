@@ -69,9 +69,6 @@ module container './modules/blob-container.bicep'={
 module vm './modules/virtual-machine.bicep' ={
   name : 'vmModule'
   scope:resourceGroup(rgName)
-  dependsOn:[
-    vnet
-  ]
   params:{
     vmName:vmName
     location:location

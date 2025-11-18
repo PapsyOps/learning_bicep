@@ -36,3 +36,4 @@ param osDiskType = 'Premium_LRS'
 
 
 
+
